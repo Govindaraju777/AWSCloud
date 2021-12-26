@@ -30,3 +30,7 @@ https://www.vmware.com/topics/glossary/content/bare-metal-hypervisor.html
 1. Public 2. Private 3. Hybrid
 
 <img width="1680" alt="Screenshot 2021-12-23 at 11 08 32 PM" src="https://user-images.githubusercontent.com/17598334/147274921-02e5e59f-fbb0-49c7-bdb7-7f422243ecdb.png">
+
+# AWS cloud compute Index
+https://aws.amazon.com/products/compute/
+<img width="1657" alt="Screenshot 2021-12-27 at 12 19 35 AM" src="https://user-images.githubusercontent.com/17598334/147417369-f9ad1bba-305a-453b-8f7a-f90fd86aeb19.png">

@@ -34,3 +34,11 @@ https://www.vmware.com/topics/glossary/content/bare-metal-hypervisor.html
 # AWS cloud compute Index
 https://aws.amazon.com/products/compute/
 <img width="1657" alt="Screenshot 2021-12-27 at 12 19 35 AM" src="https://user-images.githubusercontent.com/17598334/147417369-f9ad1bba-305a-453b-8f7a-f90fd86aeb19.png">
+
+
+# AWS ECS Vs. EKS Vs. Fargate: Which One Should You Use?
+https://www.cloudzero.com/blog/ecs-vs-eks
+### Amazon ECS vs. EKS: What Are The Best Use Cases?
+### Amazon Fargate for ECS Or EKS: What Is It?
+        AWS Fargate is a serverless compute service for containers that can be used to run both Amazon ECS and EKS. Both services (ECS and EKS) manage how your containers run, but you still need a compute layer.
+

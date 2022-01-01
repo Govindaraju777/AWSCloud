@@ -43,3 +43,8 @@ https://www.cloudzero.com/blog/ecs-vs-eks
         AWS Fargate is a serverless compute service for containers that can be used to run both Amazon ECS and EKS. Both services (ECS and EKS) manage how your containers run, but you still need a compute layer.
 
 <img width="1633" alt="Screenshot 2021-12-27 at 5 10 14 PM" src="https://user-images.githubusercontent.com/17598334/147468554-e4ede33e-709a-489e-aaee-f2c3e85f099c.png">
+
+
+# Elastic Load Balancing features
+https://aws.amazon.com/elasticloadbalancing/features/
+

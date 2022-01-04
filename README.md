@@ -53,3 +53,7 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-upd
 
 # AWS S3 Storage Classes
 <img width="1288" alt="Screenshot 2022-01-04 at 7 44 49 PM" src="https://user-images.githubusercontent.com/17598334/148072019-f973dbae-1b3a-4b4d-98e7-4d709df8b665.png">
+
+# S3 , EBS, EFS
+<img width="1290" alt="Screenshot 2022-01-04 at 10 25 36 PM" src="https://user-images.githubusercontent.com/17598334/148094961-8999d3c3-e023-43fb-bab3-e74b082395d7.png">
+

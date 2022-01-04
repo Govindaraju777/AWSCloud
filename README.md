@@ -51,4 +51,5 @@ https://aws.amazon.com/elasticloadbalancing/features/
 # Listener rules for your Application Load Balancer
 https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-update-rules.html
 
-
+# AWS S3 Storage Classes
+<img width="1288" alt="Screenshot 2022-01-04 at 7 44 49 PM" src="https://user-images.githubusercontent.com/17598334/148072019-f973dbae-1b3a-4b4d-98e7-4d709df8b665.png">

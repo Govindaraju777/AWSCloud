@@ -60,3 +60,5 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-upd
 # S3 , EBS, EFS
 <img width="1290" alt="Screenshot 2022-01-04 at 10 25 36 PM" src="https://user-images.githubusercontent.com/17598334/148094961-8999d3c3-e023-43fb-bab3-e74b082395d7.png">
 
+# Selecting the right database in Amazon Web Service(AWS)
+![image](https://user-images.githubusercontent.com/17598334/148815513-1af21a1c-7313-4e96-929e-e80c51b98a03.png)

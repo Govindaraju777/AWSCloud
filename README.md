@@ -62,3 +62,42 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-upd
 
 # Selecting the right database in Amazon Web Service(AWS)
 ![image](https://user-images.githubusercontent.com/17598334/148815513-1af21a1c-7313-4e96-929e-e80c51b98a03.png)
+
+
+## Amazon Web Services (AWS) provides several services that can be used to run Docker containers. Here are some of the key AWS services for running Docker images:
+    
+    Amazon Web Services (AWS) provides several services that can be used to run Docker containers. Here are some of the key AWS services for running Docker images:
+    
+### Amazon Elastic Container Service (ECS):
+    
+    Description: A fully managed container orchestration service that allows you to run Docker containers without managing the underlying infrastructure.
+    Use Cases: Microservices, batch processing, and long-running applications.
+    
+    
+### Amazon Elastic Kubernetes Service (EKS):
+    
+    Description: A managed Kubernetes service that simplifies the deployment, management, and scaling of containerized applications using Kubernetes.
+    Use Cases: Complex containerized applications requiring the flexibility and power of Kubernetes.
+
+### AWS Fargate:
+    
+    Description: A serverless compute engine for containers that allows you to run containers without managing the underlying infrastructure. You only pay for the vCPU and memory allocated to your containers.
+    Use Cases: Short-lived, stateless containers, and applications with varying workloads.
+
+### Amazon EC2 Container Service (deprecated, replaced by ECS and Fargate):
+    
+    Description: The predecessor to ECS, provided a way to run Docker containers on EC2 instances.
+    Note: While EC2 Container Service is still mentioned in some documentation, AWS recommends using ECS or Fargate for new containerized applications.
+
+#### AWS Batch:
+    
+    Description: A fully managed service for running batch computing workloads. While not specifically for Docker containers, it supports containerized applications and can be used for running Docker images in batch processing scenarios.
+    Use Cases: Batch processing, data processing, and scientific computing.
+
+#### AWS Lambda (with AWS Lambda Layers for Container Images):
+    
+    Description: While traditionally used for serverless functions, AWS Lambda has introduced support for container images. You can package and deploy your application as a container image and run it using Lambda.
+    Use Cases: Short-lived, event-driven functions, and applications with unpredictable workloads.
+    When choosing a service, consider factors such as the level of abstraction, ease of management, flexibility, and scalability based on the specific requirements of your application. ECS and EKS are particularly well-suited for more complex containerized applications, while Fargate provides a serverless option for simplified management.
+
+    

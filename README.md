@@ -66,7 +66,9 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-upd
 
 ## Amazon Web Services (AWS) provides several services that can be used to run Docker containers. Here are some of the key AWS services for running Docker images:
     
-    Amazon Web Services (AWS) provides several services that can be used to run Docker containers. Here are some of the key AWS services for running Docker images:
+    Amazon Web Services (AWS) provides several services that can be used to run Docker containers. 
+    
+Here are some of the key AWS services for running Docker images:
     
 ### Amazon Elastic Container Service (ECS):
     
@@ -96,8 +98,11 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-upd
 
 #### AWS Lambda (with AWS Lambda Layers for Container Images):
     
-    Description: While traditionally used for serverless functions, AWS Lambda has introduced support for container images. You can package and deploy your application as a container image and run it using Lambda.
+    Description: 
+    While traditionally used for serverless functions, AWS Lambda has introduced support for container images. 
+    You can package and deploy your application as a container image and run it using Lambda.
     Use Cases: Short-lived, event-driven functions, and applications with unpredictable workloads.
-    When choosing a service, consider factors such as the level of abstraction, ease of management, flexibility, and scalability based on the specific requirements of your application. ECS and EKS are particularly well-suited for more complex containerized applications, while Fargate provides a serverless option for simplified management.
+    When choosing a service, consider factors such as the level of abstraction, ease of management, flexibility, and scalability based on the specific requirements of your application. 
+    ECS and EKS are particularly well-suited for more complex containerized applications, while Fargate provides a serverless option for simplified management.
 
     

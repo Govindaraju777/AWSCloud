@@ -142,4 +142,4 @@ It's native to AWS and tightly integrated with its services. You define your inf
     Purpose: Automation and configuration management for Azure resources.
     Description: Azure Automation is a service provided by Microsoft Azure for automating the creation, deployment, and management of Azure resources. It supports the use of PowerShell and graphical runbooks for defining automation workflows. It is tightly integrated with Azure services.
 In summary, AWS CloudFormation and Azure Automation are specific to AWS and Azure, respectively, while Terraform is a multi-cloud IaC tool. Chef and Puppet are more focused on configuration management and can be used in diverse environments, including on-premises and various cloud providers. The choice between these tools often depends on specific use cases, existing infrastructure, and team preferences.
-    
+

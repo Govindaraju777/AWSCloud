@@ -4,7 +4,8 @@ my notes on aws cloud
 # Hypervisor
     In order to start creating virtual machines, you need a hypervisor.
 
-    A hypervisor, or virtual machine monitor (VMM) is a software layer between the host machine, the physical server, and the guest machines, the virtual machines. It interacts with hardware and provides an interface to share the available resources with the guest operating systems.
+    A hypervisor, or virtual machine monitor (VMM) is a software layer between the host machine, the physical server, and the guest machines, the virtual machines. 
+    It interacts with hardware and provides an interface to share the available resources with the guest operating systems.
 
 https://www.vmware.com/topics/glossary/content/bare-metal-hypervisor.html
 

@@ -62,4 +62,7 @@ https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html
 | Environment Variables | Supports passing environment variables to job containers through job definitions.        | Supports environment variables for configuring function behavior and settings.           |
 
 
+### What is Amazon Lightsail? 
+  Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud.
 
+  

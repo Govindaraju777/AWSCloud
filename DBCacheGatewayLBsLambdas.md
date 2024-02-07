@@ -65,4 +65,40 @@ https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html
 ### What is Amazon Lightsail? 
   Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud.
 
+
+## 
+Docker - container technology to run apps
+ECS - run docker containers on EC2
+Fargate:
+    Run docker containers without provisioning ithe infrastructure
+    servreless offering (no EC2 instanace)
+    
+ECR: private docker images repository
+
+Batch : run batch jobs on AWS across managed EC3 insta
+
+lightsail : Predictable & Low pricing for simple applicaitons & DB stacks
+
+Lambda : 
+-----
+
+lambda is servreless , Functionas service , seamless scaling, reactive
+
+Lmbda billing; 
+    By the time run x by the RAM provisioned
+    By the number of invocations
+    
+Language support: 
+    many programming languages except
+    
+invocaiton time: up to 15 minutes
+
+use case:
+    create thumbnails for images upload on to s3
+    
+API gateway : expost Lambda functions as HTTP API
+
+
+
+
   

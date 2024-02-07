@@ -3,12 +3,11 @@ AWS CloudFormation is a service provided by Amazon Web Services (AWS) that allow
   
 
 # Benefits of AWS CloudFormation:
-
-Automation: Automates infrastructure provisioning and management.
-Consistency: Ensures consistent infrastructure configurations across environments.
-Reusability: Enables reuse of infrastructure templates for different use cases.
-Version Control: Allows versioning and tracking of infrastructure changes.
-Scalability: Supports scalable deployments and resource management.
-Cost Management: Provides visibility into infrastructure costs for optimization.
-Security and Compliance: Enforces security best practices and compliance requirements.
-Extensibility: Integrates with other AWS services and third-party tools for customization.
+  Automation: Automates infrastructure provisioning and management.
+  Consistency: Ensures consistent infrastructure configurations across environments.
+  Reusability: Enables reuse of infrastructure templates for different use cases.
+  Version Control: Allows versioning and tracking of infrastructure changes.
+  Scalability: Supports scalable deployments and resource management.
+  Cost Management: Provides visibility into infrastructure costs for optimization.
+  Security and Compliance: Enforces security best practices and compliance requirements.
+  Extensibility: Integrates with other AWS services and third-party tools for customization.

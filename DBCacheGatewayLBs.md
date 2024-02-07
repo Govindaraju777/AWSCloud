@@ -42,7 +42,7 @@ https://aws.amazon.com/api-gateway/features/
 | Timeout Limit                    | Timeout limit is 4000 seconds                                                       | Timeout limit can be configured but typically set to 30 seconds or less                          |
 
 
-## AWS batch
+## AWS batch vs Lambda
 https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html
 
 

@@ -18,3 +18,23 @@
 | AWS Lake Formation                      | Fully managed service for building, securing, and managing data lakes on AWS.                                                                                                                                                                                              |
 | Amazon Database Migration Service       | Fully managed service for migrating databases to AWS quickly and securely. Supports heterogeneous database migrations.                                                                                                                                                     |
 | Amazon DMS (Database Migration Service) | Fully managed service for migrating databases to AWS quickly and securely. Supports homogeneous and heterogeneous migrations.                                                                                                                                              |
+
+
+
+## AWS - Application Load Balancers vs API Gateway
+
+| Feature                          | Application Load Balancer (ALB)                                                     | Amazon API Gateway                                                                               |
+|----------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Layer of Load Balancing          | Layer 7 (HTTP/HTTPS)                                                                | Layer 7 (HTTP/HTTPS)                                                                             |
+| Distribution of Incoming Traffic | Automatically distributes incoming traffic to backend targets                       | Exposes HTTP/HTTPS endpoints for invoking backend services and APIs                              |
+| Web Application Firewall (WAF)   | Supports WAF protection out of the box                                              | Not directly supported, but can be implemented using AWS WAF                                     |
+| Response Caching                 | Does not cache responses                                                            | Supports response caching                                                                        |
+| Rate Limiting and Bursting       | Does not provide rate limiting or bursting capability                               | Supports rate limiting, caching, and bursting capabilities                                       |
+| Static IP Availability           | Possible to get a static IP for load balancer endpoint using AWS Global Accelerator | Static IP assignment available for custom domain names through custom domain name configurations |
+| Supported Protocols              | Accepts both HTTP and HTTPS traffic (SSL configuration required)                    | Accepts HTTP and HTTPS traffic (SSL configuration required)                                      |
+| Request Validation and Mapping   | Cannot perform request validation or request/response mapping                       | Supports request validation, request/response mapping, and transformation                        |
+| Handling Spiky Traffic           | Can handle spiky traffic with potential delay                                       | Supports burstable and auto-scaling capabilities                                                 |
+| Regional Service                 | ALB is a regional service and can only integrate with Lambda in the same region     | API Gateway is a regional service but can integrate with Lambda in any region                    |
+| Import/Export of Rules           | Rules cannot be imported/exported across platforms                                  | Not applicable (API configurations are managed within API Gateway)                               |
+| Load Balancing Strategies        | Supports Round Robin and least connection strategies                                | Not applicable (API Gateway routes traffic based on API configurations)                          |
+| Timeout Limit                    | Timeout limit is 4000 seconds                                                       | Timeout limit can be configured but typically set to 30 seconds or less                          |

@@ -40,3 +40,26 @@ https://aws.amazon.com/api-gateway/features/
 | Import/Export of Rules           | Rules cannot be imported/exported across platforms                                  | Not applicable (API configurations are managed within API Gateway)                               |
 | Load Balancing Strategies        | Supports Round Robin and least connection strategies                                | Not applicable (API Gateway routes traffic based on API configurations)                          |
 | Timeout Limit                    | Timeout limit is 4000 seconds                                                       | Timeout limit can be configured but typically set to 30 seconds or less                          |
+
+
+## AWS batch
+https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html
+
+
+| Feature               | AWS Batch                                                                                | AWS Lambda                                                                               |
+|-----------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Use Case              | Ideal for batch processing workloads, such as data ETL, machine learning, and analytics. | Suitable for event-driven, short-lived, and stateless functions triggered by events.     |
+| Deployment Model      | Managed batch processing service where you define jobs, queues, and compute resources.   | Fully managed serverless compute service where you upload code and AWS handles the rest. |
+| Compute Resources     | Uses managed compute environments (e.g., EC2 instances) to execute batch jobs.           | Does not require provisioning or managing compute resources; AWS handles scaling.        |
+| Scaling               | Automatically scales compute resources based on workload and job requirements.           | Automatically scales based on incoming requests or events.                               |
+| Execution Time Limit  | Limited only by the maximum job duration set in the job definition (up to 14 days).      | Limited to a maximum execution time of 15 minutes per invocation.                        |
+| Supported Languages   | Supports various programming languages and frameworks through custom Docker images.      | Supports multiple programming languages (e.g., Node.js, Python, Java, Go, etc.).         |
+| Integration           | Integrates with other AWS services such as S3, EC2, DynamoDB, and AWS Lambda.            | Can be triggered by various AWS services, including S3, SNS, DynamoDB, and more.         |
+| Billing Model         | Pay-as-you-go pricing based on the resources consumed (compute resources and storage).   | Pay-as-you-go pricing based on the number of requests and compute time.                  |
+| State Management      | Supports job queues and job definitions for managing job scheduling and execution.       | Stateless service; does not manage state between function invocations.                   |
+| Cold Start Latency    | May experience longer startup times (cold starts) if no compute environment is running.  | May experience cold starts, but AWS continuously optimizes performance over time.        |
+| Monitoring & Logging  | Provides monitoring and logging through AWS CloudWatch for job status and metrics.       | Provides monitoring and logging through AWS CloudWatch for function invocations.         |
+| Environment Variables | Supports passing environment variables to job containers through job definitions.        | Supports environment variables for configuring function behavior and settings.           |
+
+
+

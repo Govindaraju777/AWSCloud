@@ -19,7 +19,7 @@ AWS CloudFormation is a service provided by Amazon Web Services (AWS) that allow
 
 ## CodeCommit, codeBuild, CodePipeLine, codeStar, cloud9 ...
 https://docs.aws.amazon.com/codestar/latest/userguide/welcome.html
-https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-ide-c9.html
+[https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-ide-c9.html](https://docs.aws.amazon.com/cloud9/latest/user-guide/welcome.html)
 
 AWS CodeStar: AWS CodeStar provides built-in collaboration features such as project dashboards, issue tracking, and code reviews, enabling teams to collaborate on code and manage project tasks effectively.
 AWS Cloud9: AWS Cloud9 includes collaboration features such as real-time collaborative editing, shared development environments, and chat integration, allowing multiple developers to work together on the same codebase in real-time.

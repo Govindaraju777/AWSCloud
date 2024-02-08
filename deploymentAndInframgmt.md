@@ -17,5 +17,5 @@ AWS CloudFormation is a service provided by Amazon Web Services (AWS) that allow
 
 ## AWS ElasticBeanStalk
 
-## CodeCommit, codeBuild, CodePipeLine, ...
-
+## CodeCommit, codeBuild, CodePipeLine, codeStar, cloud9 ...
+https://docs.aws.amazon.com/codestar/latest/userguide/welcome.html

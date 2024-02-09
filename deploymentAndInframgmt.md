@@ -33,3 +33,18 @@ AWS Cloud9: AWS Cloud9 includes collaboration features such as real-time collabo
 <img width="879" alt="Screenshot 2024-02-08 at 12 21 25 AM" src="https://github.com/Govindaraju777/AWSCloud/assets/17598334/3a71e333-7c53-43fc-8c4f-e6c046247313">
 <img width="1581" alt="Screenshot 2024-02-08 at 10 46 11 PM" src="https://github.com/Govindaraju777/AWSCloud/assets/17598334/a33e8cdb-b6c8-48ce-81c8-562470760a6f">
 
+| Feature               | AWS Batch                                                                                | AWS Lambda                                                                               |
+|-----------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Use Case              | Ideal for batch processing workloads, such as data ETL, machine learning, and analytics. | Suitable for event-driven, short-lived, and stateless functions triggered by events.     |
+| Deployment Model      | Managed batch processing service where you define jobs, queues, and compute resources.   | Fully managed serverless compute service where you upload code and AWS handles the rest. |
+| Compute Resources     | Uses managed compute environments (e.g., EC2 instances) to execute batch jobs.           | Does not require provisioning or managing compute resources; AWS handles scaling.        |
+| Scaling               | Automatically scales compute resources based on workload and job requirements.           | Automatically scales based on incoming requests or events.                               |
+| Execution Time Limit  | Limited only by the maximum job duration set in the job definition (up to 14 days).      | Limited to a maximum execution time of 15 minutes per invocation.                        |
+| Supported Languages   | Supports various programming languages and frameworks through custom Docker images.      | Supports multiple programming languages (e.g., Node.js, Python, Java, Go, etc.).         |
+| Integration           | Integrates with other AWS services such as S3, EC2, DynamoDB, and AWS Lambda.            | Can be triggered by various AWS services, including S3, SNS, DynamoDB, and more.         |
+| Billing Model         | Pay-as-you-go pricing based on the resources consumed (compute resources and storage).   | Pay-as-you-go pricing based on the number of requests and compute time.                  |
+| State Management      | Supports job queues and job definitions for managing job scheduling and execution.       | Stateless service; does not manage state between function invocations.                   |
+| Cold Start Latency    | May experience longer startup times (cold starts) if no compute environment is running.  | May experience cold starts, but AWS continuously optimizes performance over time.        |
+| Monitoring & Logging  | Provides monitoring and logging through AWS CloudWatch for job status and metrics.       | Provides monitoring and logging through AWS CloudWatch for function invocations.         |
+| Environment Variables | Supports passing environment variables to job containers through job definitions.        | Supports environment variables for configuring function behavior and settings.           |
+

@@ -147,3 +147,8 @@ In summary, AWS CloudFormation and Azure Automation are specific to AWS and Azur
 
 ### Disaster Recovery (DR
 Disaster Recovery (DR) is a set of plans and measures that organizations put in place to quickly recover and resume normal operations after a disruptive event, such as a natural disaster or a cyberattack. It involves strategies like data backup, system redundancy, and testing to minimize downtime and ensure business continuity in the face of unexpected disruptions.
+
+
+
+# Best FREE AWS Cloud Courses for 2023
+https://www.youtube.com/watch?v=PZxAkzpuxT8
